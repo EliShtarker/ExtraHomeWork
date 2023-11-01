@@ -1,144 +1,144 @@
 document.getElementById("copyButton1").addEventListener("click", function() {
-    var textToCopy = "display: flex; justify-content:flex-end;";
+    var textToCopy = "justify-content:flex-end;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 1 unlocked");
   });
 
   document.getElementById("copyButton2").addEventListener("click", function() {
-    var textToCopy = "display: flex; justify-content:center;";
+    var textToCopy = "justify-content:center;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 2 unlocked");
   });
 
   document.getElementById("copyButton3").addEventListener("click", function() {
-    var textToCopy = "display: flex; justify-content:space-around;";
+    var textToCopy = "justify-content:space-around;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 3 unlocked");
   });
 
   document.getElementById("copyButton4").addEventListener("click", function() {
-    var textToCopy = "display: flex; justify-content:space-between;";
+    var textToCopy = "justify-content:space-between;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 4 unlocked");
   });
 
   document.getElementById("copyButton5").addEventListener("click", function() {
-    var textToCopy = "display: flex; align-items: flex-end;";
+    var textToCopy = "align-items: flex-end;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 5 unlocked");
   });
 
   document.getElementById("copyButton6").addEventListener("click", function() {
-    var textToCopy = "display: flex; align-items:center; justify-content:center;";
+    var textToCopy = "align-items:center; justify-content:center;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 6 unlocked");
   });
 
   document.getElementById("copyButton7").addEventListener("click", function() {
-    var textToCopy = "display: flex; justify-content:space-around; align-items: flex-end;";
+    var textToCopy = "justify-content:space-around; align-items: flex-end;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 7 unlocked");
   });
 
   document.getElementById("copyButton8").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-direction:row-reverse;";
+    var textToCopy = "flex-direction:row-reverse;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 8 unlocked");
   });
 
   document.getElementById("copyButton9").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-direction: column;";
+    var textToCopy = "flex-direction: column;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 9 unlocked");
   });
 
   document.getElementById("copyButton10").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-direction:row-reverse; justify-content:flex-end;";
+    var textToCopy = "flex-direction:row-reverse; justify-content:flex-end;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 10 unlocked");
   });
 
   document.getElementById("copyButton11").addEventListener("click", function() {
-    var textToCopy = "flex; flex-direction: column; justify-content:flex-end;";
+    var textToCopy = "flex-direction: column; justify-content:flex-end;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 11 unlocked");
   });
 
   document.getElementById("copyButton12").addEventListener("click", function() {
-    var textToCopy = "display: flex; justify-content:space-between; flex-direction: column-reverse;display: flex; justify-content:center;";
+    var textToCopy = "justify-content:space-between; flex-direction: column-reverse;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 12 unlocked");
   });
 
   document.getElementById("copyButton13").addEventListener("click", function() {
-    var textToCopy = "display: flex; justify-content:center; flex-direction:row-reverse; align-items: flex-end;";
+    var textToCopy = "justify-content:center; flex-direction:row-reverse; align-items: flex-end;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 13 unlocked");
   });
 
   document.getElementById("copyButton14").addEventListener("click", function() {
@@ -149,7 +149,7 @@ document.getElementById("copyButton1").addEventListener("click", function() {
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 14 unlocked");
   });
   
   document.getElementById("copyButton15").addEventListener("click", function() {
@@ -160,7 +160,7 @@ document.getElementById("copyButton1").addEventListener("click", function() {
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 15 unlocked");
   });
 
   document.getElementById("copyButton16").addEventListener("click", function() {
@@ -171,95 +171,95 @@ document.getElementById("copyButton1").addEventListener("click", function() {
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 16 unlocked");
   });
 
   document.getElementById("copyButton17").addEventListener("click", function() {
-    var textToCopy = "display: flex; align-self:flex-end; order:2";
+    var textToCopy = "align-self:flex-end; order:2";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 17 unlocked");
   });
 
   document.getElementById("copyButton18").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-wrap:wrap;";
+    var textToCopy = "flex-wrap:wrap;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 18 unlocked");
   });
 
   document.getElementById("copyButton19").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-wrap:wrap; flex-direction:column;";
+    var textToCopy = "flex-wrap:wrap; flex-direction:column;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 19 unlocked");
   });
 
   document.getElementById("copyButton20").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-direction:column; flex-wrap:wrap;";
+    var textToCopy = "flex-direction:column; flex-wrap:wrap;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 20 unlocked");
   });
 
   document.getElementById("copyButton21").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-wrap: wrap; align-content:flex-start;";
+    var textToCopy = "align-content:flex-start;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 21 unlocked");
   });
 
   document.getElementById("copyButton22").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-wrap: wrap; align-content:flex-end;";
+    var textToCopy = "align-content:flex-end;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 22 unlocked");
   });
 
   document.getElementById("copyButton23").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-wrap: wrap; align-content: center; flex-direction: column-reverse;";
+    var textToCopy = "align-content: center; flex-direction: column-reverse;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 23 unlocked");
   });
 
   document.getElementById("copyButton24").addEventListener("click", function() {
-    var textToCopy = "display: flex; flex-wrap: wrap-reverse; flex-direction: column-reverse; justify-content: center; align-content: space-between;";
+    var textToCopy = "flex-wrap: wrap-reverse; flex-direction: column-reverse; justify-content: center; align-content: space-between;";
     var tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
     document.execCommand("copy");
     document.body.removeChild(tempTextarea);
-    alert("Copied the text");
+    alert("level 24 unlocked");
   });
 
 
