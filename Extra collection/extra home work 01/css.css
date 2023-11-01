@@ -1,0 +1,292 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/bg.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+}
+
+h1{
+color:white;
+padding-top: 50px;
+padding-bottom: 100px;
+}
+
+h2{
+  color: white;
+}
+
+p{color: skyblue;}
+
+
+input{
+  display: none;
+}
+
+img{
+height: 250px;
+width: 250px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    
+    color: black;
+    background-color: skyblue;
+    border:5px solid lightseagreen;
+    border-radius: 75px;
+    margin-bottom: 150px;
+}
+
+#image1{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl1-unsolved.png") no-repeat;
+        margin: 50px;
+}
+
+#image2{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl2-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image3{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl3-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image4{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl4-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image5{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl5-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image6{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl6-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image7{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl7-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image8{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl8-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image9{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl9-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image10{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl10-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image11{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl11-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image12{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl12-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image13{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl13-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image14{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl14-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image15{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl15-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image16{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl16-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image17{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl17-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image18{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl18-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image19{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl19-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image20{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl20-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image21{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl21-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image22{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl22-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image23{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl23-unsolved.png") no-repeat;
+        margin: 50px;
+}
+#image24{
+  width: 250px;
+        height: 250px;
+        background: url("images/lvl24-unsolved.png") no-repeat;
+        margin: 50px;
+}
+
+
+#image1:hover{
+  background: url("images/lvl1-solved.png") no-repeat;
+}
+
+#image2:hover{
+  background: url("images/lvl2-solved.png") no-repeat;
+}
+
+#image3:hover{
+  background: url("images/lvl3-solved.png") no-repeat;
+}
+ 
+#image4:hover{
+  background: url("images/lvl4-solved.png") no-repeat;
+}
+
+#image5:hover{
+  background: url("images/lvl5-solved.png") no-repeat;
+}
+
+#image6:hover{
+  background: url("images/lvl6-solved.png") no-repeat;
+}
+
+#image7:hover{
+  background: url("images/lv7-solved.png") no-repeat;
+}
+
+#image8:hover{
+  background: url("images/lvl8-solved.png") no-repeat;
+}
+
+#image9:hover{
+  background: url("images/lv9-solved.png") no-repeat;
+}
+
+#image10:hover{
+  background: url("images/lv10-solved.png") no-repeat;
+}
+
+#image11:hover{
+  background: url("images/lvl11-solved.png") no-repeat;
+}
+
+#image12:hover{
+  background: url("images/lvl12-solved.png") no-repeat;
+}
+
+#image13:hover{
+  background: url("images/lvl13-solved.png") no-repeat;
+}
+
+#image14:hover{
+  background: url("images/lvl14-solved.png") no-repeat;
+}
+
+#image15:hover{
+  background: url("images/lvl15-solved.png") no-repeat;
+}
+
+#image16:hover{
+  background: url("images/lvl16-solved.png") no-repeat;
+}
+
+#image17:hover{
+  background: url("images/lvl17-solved.png") no-repeat;
+}
+
+#image18:hover{
+  background: url("images/lvl18-solved.png") no-repeat;
+}
+
+#image19:hover{
+  background: url("images/lvl19-solved.png") no-repeat;
+}
+
+#image20:hover{
+  background: url("images/lvl20-solved.png") no-repeat;
+}
+
+#image21:hover{
+  background: url("images/lvl21-solved.png") no-repeat;
+}
+
+#image22:hover{
+  background: url("images/lvl22-solved.png") no-repeat;
+}
+
+#image23:hover{
+  background: url("images/lvl23-solved.png") no-repeat;
+}
+
+#image24:hover{
+  background: url("images/lvl24-solved.png") no-repeat;
+}
+
+
+ 
+
+ 
+

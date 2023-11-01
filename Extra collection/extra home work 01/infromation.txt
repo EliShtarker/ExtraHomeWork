@@ -1,0 +1,47 @@
+lvl-1=display: flex; justify-content:flex-end;
+
+lvl-2=display: flex; justify-content:center;
+
+lvl-3=display: flex; justify-content:space-around;
+
+lvl-4=display: flex; justify-content:space-between;
+
+lvl-5=display: flex; align-items: flex-end;
+
+lvl-6=display: flex; align-items:center; justify-content:center;
+
+lvl-7=display: flex; justify-content:space-around; align-items: flex-end;
+
+lvl-8=display: flex; flex-direction:row-reverse;
+
+lvl-9=display: flex; flex-direction: column;
+
+lvl-10=display: flex; flex-direction:row-reverse; justify-content:flex-end;
+
+lvl-11=display: flex; flex-direction: column; justify-content:flex-end;
+
+lvl-12=display: flex; justify-content:space-between; flex-direction: column-reverse;
+
+lvl-13=display: flex; justify-content:center; flex-direction:row-reverse; align-items: flex-end;
+
+lvl-14=order:1;
+
+lvl-15=order:-2;
+
+lvl-16=align-self:flex-end;
+
+lvl-17=display: flex; align-self:flex-end; order:2
+
+lvl-18=display: flex; flex-wrap:wrap;
+
+lvl-19=display: flex; flex-wrap:wrap; flex-direction:column;
+
+lvl-20=display: flex; flex-direction:column; flex-wrap:wrap;
+
+lvl-21=display: flex; flex-wrap: wrap; align-content:flex-start;
+
+lvl-22=display: flex; flex-wrap: wrap; align-content:flex-end;
+
+lvl-23=display: flex; flex-wrap: wrap; align-content: center; flex-direction: column-reverse;
+
+lvl-24=display: flex; flex-wrap: wrap-reverse; flex-direction: column-reverse; justify-content: center; align-content: space-between;
