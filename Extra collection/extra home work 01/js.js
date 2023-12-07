@@ -1,6 +1,6 @@
 document.getElementById("copyButton1").addEventListener("click", function() {
-    var textToCopy = "justify-content:flex-end;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "justify-content:flex-end;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -10,8 +10,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton2").addEventListener("click", function() {
-    var textToCopy = "justify-content:center;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "justify-content:center;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -21,8 +21,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton3").addEventListener("click", function() {
-    var textToCopy = "justify-content:space-around;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "justify-content:space-around;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -32,8 +32,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton4").addEventListener("click", function() {
-    var textToCopy = "justify-content:space-between;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "justify-content:space-between;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -43,8 +43,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton5").addEventListener("click", function() {
-    var textToCopy = "align-items: flex-end;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "align-items: flex-end;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -54,8 +54,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton6").addEventListener("click", function() {
-    var textToCopy = "align-items:center; justify-content:center;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "align-items:center; justify-content:center;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -65,8 +65,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton7").addEventListener("click", function() {
-    var textToCopy = "justify-content:space-around; align-items: flex-end;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "justify-content:space-around; align-items: flex-end;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -76,8 +76,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton8").addEventListener("click", function() {
-    var textToCopy = "flex-direction:row-reverse;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "flex-direction:row-reverse;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -87,8 +87,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton9").addEventListener("click", function() {
-    var textToCopy = "flex-direction: column;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "flex-direction: column;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -98,8 +98,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton10").addEventListener("click", function() {
-    var textToCopy = "flex-direction:row-reverse; justify-content:flex-end;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "flex-direction:row-reverse; justify-content:flex-end;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -109,8 +109,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton11").addEventListener("click", function() {
-    var textToCopy = "flex-direction: column; justify-content:flex-end;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "flex-direction: column; justify-content:flex-end;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -120,8 +120,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton12").addEventListener("click", function() {
-    var textToCopy = "justify-content:space-between; flex-direction: column-reverse;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "justify-content:space-between; flex-direction: column-reverse;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -131,8 +131,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton13").addEventListener("click", function() {
-    var textToCopy = "justify-content:center; flex-direction:row-reverse; align-items: flex-end;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "justify-content:center; flex-direction:row-reverse; align-items: flex-end;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -142,8 +142,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton14").addEventListener("click", function() {
-    var textToCopy = "order:1;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "order:1;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -153,8 +153,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
   
   document.getElementById("copyButton15").addEventListener("click", function() {
-    var textToCopy = "order:-2;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "order:-2;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -164,8 +164,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton16").addEventListener("click", function() {
-    var textToCopy = "align-self:flex-end;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "align-self:flex-end;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -175,8 +175,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton17").addEventListener("click", function() {
-    var textToCopy = "align-self:flex-end; order:2";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "align-self:flex-end; order:2";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -186,8 +186,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton18").addEventListener("click", function() {
-    var textToCopy = "flex-wrap:wrap;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "flex-wrap:wrap;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -197,8 +197,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton19").addEventListener("click", function() {
-    var textToCopy = "flex-wrap:wrap; flex-direction:column;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "flex-wrap:wrap; flex-direction:column;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -208,8 +208,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton20").addEventListener("click", function() {
-    var textToCopy = "flex-direction:column; flex-wrap:wrap;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "flex-direction:column; flex-wrap:wrap;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -219,8 +219,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton21").addEventListener("click", function() {
-    var textToCopy = "align-content:flex-start;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "align-content:flex-start;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -230,8 +230,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton22").addEventListener("click", function() {
-    var textToCopy = "align-content:flex-end;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "align-content:flex-end;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -241,8 +241,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton23").addEventListener("click", function() {
-    var textToCopy = "align-content: center; flex-direction: column-reverse;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "align-content: center; flex-direction: column-reverse;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
@@ -252,8 +252,8 @@ document.getElementById("copyButton1").addEventListener("click", function() {
   });
 
   document.getElementById("copyButton24").addEventListener("click", function() {
-    var textToCopy = "flex-wrap: wrap-reverse; flex-direction: column-reverse; justify-content: center; align-content: space-between;";
-    var tempTextarea = document.createElement("textarea");
+    let textToCopy = "flex-wrap: wrap-reverse; flex-direction: column-reverse; justify-content: center; align-content: space-between;";
+    let tempTextarea = document.createElement("textarea");
     tempTextarea.value = textToCopy;
     document.body.appendChild(tempTextarea);
     tempTextarea.select();
